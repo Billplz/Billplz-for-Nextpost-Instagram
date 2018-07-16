@@ -115,8 +115,6 @@ Accept payment using Billplz by using this plugin.
 2. Set **API Key**, **X Signature Key** & Collection ID
 3. Save Changes
 
-Note: You may also need to setup for the individual courses accordingly to enable the enrolment method.
-
 ## Troubleshooting
 
 * Please make sure you have enabled X Signature Key properly on your [Billplz Account Settings](https://www.billplz.com/enterprise/setting)
