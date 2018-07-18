@@ -135,10 +135,6 @@ class Billplz extends AbstractGateway
             }
         }
         
-        if ($data['type'] === 'callback') {
-            exit('Callback Action Done');
-        }
-        
         return true;
     }
 }
