@@ -12,7 +12,7 @@ Accept payment using Billplz by using this plugin.
 -  Copy all files to installation directory. 
 -  Set pwd to **app** folder and execute:
    ```bash
-   composer require billplz/billplz-api
+   composer require billplz/billplz-api "^3.7"
    ```
 -  Edit file: __*app/views/fragments/settings/menu.fragment.php*__. Add this line after stripe link:
     ```html
