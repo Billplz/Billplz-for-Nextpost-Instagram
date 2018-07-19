@@ -12,7 +12,7 @@ Note: You are expected to have basic knowledge of using Command Line Interface (
 ## Installation
 
 -  Copy all files to installation directory. 
--  Set pwd to **app** folder and execute:
+-  Set present working directory (pwd) to **app** folder and execute:
    ```bash
    composer require billplz/billplz-api "^3.7"
    ```
