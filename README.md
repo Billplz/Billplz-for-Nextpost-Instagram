@@ -2,6 +2,8 @@
 
 Accept payment using Billplz by using this plugin.
 
+Note: You are expected to have basic knowledge of using Command Line Interface (CLI) with PHP Composer to perform the installation.
+
 ## System Requirements
 * PHP Version **7.0** or later
 * Build with **Nextpost Instagram** version **3.0.6**
