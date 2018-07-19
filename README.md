@@ -51,6 +51,9 @@ Accept payment using Billplz by using this plugin.
       "notifications", "smtp"
     ];
    ```
+   
+   Note: If you are using Nextpost Instagram version 4.1.x, the **$settings_pages** can be located on **app\inc\routes.inc.php**
+   
 -  Edit file: __*app/views/fragments/renew.fragment.php*__. Before the block **"data.paypal.client_id"**, add this block:
    ```php
    <?php 
