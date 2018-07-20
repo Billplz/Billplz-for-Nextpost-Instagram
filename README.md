@@ -6,7 +6,7 @@ Note: You are expected to have basic knowledge of using Command Line Interface (
 
 ## System Requirements
 * PHP Version **7.0** or later
-* Build with **Nextpost Instagram** version **3.0.6**
+* Build with **Nextpost Instagram** version **3.0.6** and **4.1.x**
 * URL: https://codecanyon.net/item/nextpost-auto-post-schedule-manage-your-instagram-multi-accounts-php-script/19456996
 
 ## Installation
