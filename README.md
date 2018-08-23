@@ -81,7 +81,7 @@ Note: You are expected to have basic knowledge of using Command Line Interface (
 -  Edit file: __*assets/js/core.js*__. After else if block for stripe, add this block:
     ```js
     else if (data.payment_gateway == "billplz") {
-        placeBillplzOrder();
+        _placeBillplzOrder();
     }
    ```
 -  Edit file: __*assets/js/core.js*__. In the NextPost.Renew anonymous function, add this block:
