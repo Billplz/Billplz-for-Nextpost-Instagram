@@ -115,6 +115,11 @@ class Billplz extends AbstractGateway
         if (!$Order->get("payment_id")) {
             // If payment_id is not empty
             // then it means that, order is already completed
+            
+            // Prevent unpaid bill from being updated
+            if (!$data['paid']){
+                return false;
+            }
 
             if ($Order->get("status") == "payment_processing") {
                 $Order->finishProcessing();
